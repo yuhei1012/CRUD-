@@ -1,3 +1,4 @@
 class Tweet < ApplicationRecord
-    belongs_to :user  # これを追加
+    belongs_to :user
+    has_many :favorites  # 追加
 end
